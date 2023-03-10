@@ -1,0 +1,5 @@
+{
+    "description": "Super (Windows) Key Search.  Does local, Google, and Domains.  Local opens local files and applications.  Phrase search searches Google.  Typing in a domain goes directly to the domain.",
+    "uuid": "search@timjae",
+    "name": "search@timjae"
+}

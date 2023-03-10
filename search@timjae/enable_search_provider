@@ -1,0 +1,8 @@
+#!/bin/bash
+# Using Archive Manager extract the contents to ~/.local/share/cinnamon/search_providers
+# Run:  
+
+gsettings set org.cinnamon enabled-search-providers [\"search@timjae\"]
+
+# Restart Cinnamon with Ctrl-Alt-Esc
+
