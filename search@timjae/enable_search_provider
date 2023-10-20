@@ -1,8 +1,13 @@
 #!/bin/bash
-# Using Archive Manager extract the contents to ~/.local/share/cinnamon/search_providers
-# Run:  
+echo 'Extract the contents to ~/.local/share/cinnamon/search_providers'
+
+echo 'Running import command:   
 
 gsettings set org.cinnamon enabled-search-providers [\"search@timjae\"]
 
-# Restart Cinnamon with Ctrl-Alt-Esc
+'
+
+gsettings set org.cinnamon enabled-search-providers [\"search@timjae\"]
+
+echo 'Restart Cinnamon with Ctrl+Alt+Esc'
 

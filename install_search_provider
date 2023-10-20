@@ -1,0 +1,15 @@
+#!/bin/bash
+echo ''
+echo 'Copying contents to ~/.local/share/cinnamon/search_providers'
+cp -rf seach@timjae ~/.local/share/cinnamon/search_providers/.
+echo 'Done'
+echo ''
+echo 'Running import command:   
+
+gsettings set org.cinnamon enabled-search-providers [\"search@timjae\"]
+
+'
+gsettings set org.cinnamon enabled-search-providers [\"search@timjae\"]
+echo 'Done'
+echo ''
+echo 'Please Restart Cinnamon with Ctrl+Alt+Esc for search_provider to take effect'
