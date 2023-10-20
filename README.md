@@ -7,4 +7,4 @@ Then runs the import command:
 
 <code>gsettings set org.cinnamon enabled-search-providers [\"search@timjae\"]</code>
 
-Then simply restart Cinnamon with Ctrl+Alt+Esc for search_provider to take effect or log out and log back in
+Then simply restart Cinnamon with Ctrl+Alt+Backspace for search_provider to take effect or log out and log back in
