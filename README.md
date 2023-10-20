@@ -1,7 +1,7 @@
 # Linux Mint search_provider
 # Super (Windows) Key Menu Search.  Does local, Google, and Domains.  Local opens local files and applications.  Phrase search searches Google in default browser.  Typing in a domain goes directly to the domain in your default browser.
 
-<code>install_search_providers</code> copies contents to <code>~/.local/share/cinnamon/search_providers</code>
+<code>install_search_provider</code> copies contents to <code>~/.local/share/cinnamon/search_providers</code>
 
 Then runs the import command:
 
