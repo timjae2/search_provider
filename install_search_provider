@@ -11,4 +11,4 @@ gsettings set org.cinnamon enabled-search-providers [\"search@timjae\"]
 gsettings set org.cinnamon enabled-search-providers [\"search@timjae\"]
 echo 'Done'
 echo ''
-echo 'Please Restart Cinnamon with Ctrl+Alt+Esc for search_provider to take effect'
+echo 'Please Restart Cinnamon with Ctrl+Alt+Backspace for search_provider to take effect'
