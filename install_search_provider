@@ -1,13 +1,12 @@
 #!/bin/bash
 echo ''
 echo 'Copying contents to ~/.local/share/cinnamon/search_providers'
-cp -rf seach@timjae ~/.local/share/cinnamon/search_providers/.
+cp -rf search@timjae ~/.local/share/cinnamon/search_providers/.
 echo 'Done'
 echo ''
 echo 'Running import command:   
 
 gsettings set org.cinnamon enabled-search-providers [\"search@timjae\"]
-
 '
 gsettings set org.cinnamon enabled-search-providers [\"search@timjae\"]
 echo 'Done'
